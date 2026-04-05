@@ -6,8 +6,19 @@
     <title>Weight Loss Solutions | GLP-1 Pills | Wegovy® & Ozempic® at Hers</title>
     <meta name="description" content="Lose weight with FDA-approved GLP-1 medications like Wegovy® & Ozempic® at Hers. Get personalized care, support, and ongoing treatment plans tailored for women.">
     <meta name="keywords" content="GLP-1, Wegovy® Pill, Weight loss, FDA-approved, Ozempic®, Mounjaro®, Zepbound®, Novo Nordisk A/S, Eli Lilly and Company, Active Membership, Weight Loss Program, Reduced-calorie diet, Exercise guidance">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+
     <style>
-        /* Global Styling */
+        /* Global Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -162,6 +173,12 @@
             font-weight: bold;
         }
     </style>
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
     <header>
@@ -216,27 +233,21 @@
                     <td>Yes</td>
                 </tr>
                 <tr>
-                    <td>Monthly Dose</td>
-                    <td>Once a week</td>
-                    <td>Once a week</td>
+                    <td>Monthly Dosage</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
                 </tr>
                 <tr>
-                    <td>Primary Benefit</td>
-                    <td>Weight loss</td>
-                    <td>Blood sugar control (with weight loss as a side effect)</td>
-                </tr>
-                <tr>
-                    <td>Cost (without insurance)</td>
-                    <td>Varies</td>
-                    <td>Varies</td>
+                    <td>Common Side Effects</td>
+                    <td>Nausea, Diarrhea, Constipation</td>
+                    <td>Nausea, Vomiting</td>
                 </tr>
             </table>
         </div>
     </section>
 
     <section id="testimonials">
-        <div class="container">
-            <h2>Real Results from Real Women</h2>
+        <div class="container testimonial-carousel">
             <div class="testimonial">
                 <p>"Food cravings can create a bunch of micro setbacks throughout the day... Eliminating that through the use of GLP-1s literally brightens my day." - <strong>Samantha</strong></p>
             </div>
@@ -321,6 +332,17 @@
     <script>
         // Set the current date dynamically
         document.getElementById("current-date").innerText = new Date().toLocaleDateString();
+
+        // Initialize Slick Carousel
+        $(document).ready(function(){
+            $('.testimonial-carousel').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000
+            });
+        });
     </script>
 </body>
 </html>
