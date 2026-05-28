@@ -1,294 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
-  <meta name="description" content="Complete 2026 US affiliate review of Forhers, including Ozempic, WeGowy, Jardiance, mental‑health, hair loss, and skin care for women." />
-  <title>Forhers, Ozempic, WeGowy & Jardiance Guide 2026 | US Women’s Telehealth</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Hers Women's Telehealth 2026 | Ozempic, WeGovy, Mental Health, Hair, Skin</title>
+<meta name="description" content="Hers — America's leading women's telehealth platform. Ozempic, WeGovy, Jardiance, mental health, hair loss, skin care, birth control and more. Licensed US providers."/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://brightlane.github.io/forhers/"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --pink:#e91e63;--pink-dark:#ad1457;--pink-light:#fce4ec;
+  --bg:#fdf6f9;--white:#ffffff;--card:#ffffff;
+  --text:#2d1b22;--muted:#8b6170;--border:#f3d6e4;
+  --font:'Plus Jakarta Sans',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.6}
+a{text-decoration:none;color:inherit}
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+.site-header{
+  background:var(--white);box-shadow:0 2px 12px rgba(233,30,99,0.08);
+  position:sticky;top:0;z-index:100;
+}
+.nav-inner{
+  max-width:1200px;margin:0 auto;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:16px 24px;
+}
+.logo{font-weight:800;font-size:20px;color:var(--pink)}
+.header-cta{
+  background:var(--pink);color:#fff;
+  font-weight:700;font-size:13px;
+  padding:10px 22px;border-radius:24px;
+  transition:background .2s,transform .2s;
+}
+.header-cta:hover{background:var(--pink-dark);transform:translateY(-1px)}
 
-  <style>
-    :root {
-      --brand: #e91e63;
-      --brand-dark: #ad1457;
-      --text: #333;
-      --bg: #f9f9f9;
-      --card-bg: #ffffff;
-      --accent: #ff6f91;
-      --border: #f3d6e4;
-      --radius: 12px;
-      --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      --max-width: 1200px;
-    }
+.hero{
+  background:linear-gradient(135deg,var(--pink) 0%,#e91e8c 50%,#ad1457 100%);
+  color:#fff;padding:76px 24px 60px;text-align:center;
+}
+.hero-badge{
+  display:inline-block;
+  background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.25);
+  border-radius:999px;padding:6px 18px;font-size:12px;
+  letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px;font-weight:600;
+}
+.hero h1{
+  font-size:clamp(26px,5vw,52px);font-weight:800;
+  line-height:1.15;margin-bottom:16px;
+}
+.hero p{font-size:17px;opacity:.92;max-width:620px;margin:0 auto 30px}
+.cta-group{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-white{
+  background:#fff;color:var(--pink);font-weight:800;font-size:15px;
+  padding:15px 32px;border-radius:28px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.15);
+  transition:transform .2s,box-shadow .2s;
+}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,0.2)}
+.btn-outline-white{
+  border:2px solid rgba(255,255,255,0.5);color:#fff;
+  font-size:15px;padding:13px 26px;border-radius:28px;
+  transition:border-color .2s;
+}
+.btn-outline-white:hover{border-color:#fff}
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: var(--bg);
-      margin: 0;
-      padding: 0;
-      color: var(--text);
-    }
+.trust-bar{
+  background:var(--white);border-bottom:1px solid var(--border);
+  display:flex;justify-content:center;gap:40px;flex-wrap:wrap;
+  padding:18px 24px;
+}
+.trust-item{
+  display:flex;align-items:center;gap:8px;
+  font-size:13px;font-weight:600;color:var(--muted);
+}
+.trust-item span{font-size:18px}
 
-    header {
-      background: #fff;
-      padding: 15px 0;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
+.features{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;padding:52px 24px;max-width:1200px;margin:0 auto;
+}
+.feat{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:16px;padding:24px;
+  box-shadow:0 2px 12px rgba(233,30,99,0.05);
+  transition:box-shadow .2s,transform .2s,border-color .2s;
+}
+.feat:hover{box-shadow:0 8px 28px rgba(233,30,99,0.12);transform:translateY(-3px);border-color:var(--pink)}
+.feat-icon{font-size:28px;margin-bottom:12px}
+.feat h3{font-size:16px;font-weight:700;color:var(--pink);margin-bottom:8px}
+.feat p{font-size:14px;color:var(--muted);line-height:1.6}
 
-    header .logo {
-      font-weight: 700;
-      font-size: 24px;
-      color: var(--brand);
-      text-decoration: none;
-      padding-left: 20px;
-      display: inline-block;
-    }
+.faq-section{max-width:800px;margin:0 auto;padding:0 24px 52px}
+.faq-title{font-size:20px;font-weight:800;color:var(--pink);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--border)}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:12px}
+.faq-q{font-weight:700;font-size:15px;color:var(--text);margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--muted);line-height:1.6}
 
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: flex-end;
-      margin: 0;
-      padding: 0;
-    }
+.related{max-width:1200px;margin:0 auto;padding:0 24px 52px}
+.sec-title{font-size:18px;font-weight:800;color:var(--pink);margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--border)}
+.rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.rel-card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:10px;padding:13px 16px;font-size:13px;font-weight:600;
+  color:var(--text);transition:border-color .2s,box-shadow .2s;
+}
+.rel-card:hover{border-color:var(--pink);box-shadow:0 4px 12px rgba(233,30,99,0.1)}
 
-    nav ul li {
-      margin-left: 30px;
-    }
+.cta-band{
+  background:linear-gradient(135deg,var(--pink),#e91e8c);
+  color:#fff;padding:56px 24px;text-align:center;
+}
+.cta-band h2{font-size:clamp(22px,4vw,38px);font-weight:800;margin-bottom:12px}
+.cta-band p{opacity:.9;margin-bottom:26px;font-size:17px}
 
-    nav ul li a {
-      text-decoration: none;
-      color: var(--text);
-      font-weight: 600;
-      font-size: 16px;
-    }
+.sticky-cta{
+  position:fixed;bottom:20px;right:20px;
+  background:var(--pink);color:#fff;
+  font-weight:800;font-size:13px;
+  padding:13px 20px;border-radius:24px;
+  box-shadow:0 4px 20px rgba(233,30,99,0.4);
+  z-index:999;transition:background .2s;
+}
+.sticky-cta:hover{background:var(--pink-dark)}
 
-    nav ul li a:hover {
-      color: var(--brand);
-    }
+footer{
+  background:var(--white);border-top:1px solid var(--border);
+  padding:28px 24px;text-align:center;
+  font-size:12px;color:var(--muted);
+}
+footer a{color:var(--pink)}
 
-    .hero {
-      text-align: center;
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1)), url('https://via.placeholder.com/1500x600') center/cover no-repeat;
-      padding: 120px 20px;
-      color: #fff;
-    }
+@media(max-width:600px){
+  .nav-inner{padding:12px 14px}
+  .hero{padding:52px 14px 40px}
+  .trust-bar{gap:16px}
+}
 
-    .hero h1 {
-      font-size: 3.2rem;
-      margin-bottom: 20px;
-      font-weight: 700;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-      line-height: 1.8;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .cta-btn {
-      background: var(--brand);
-      color: #fff;
-      padding: 15px 30px;
-      border-radius: 30px;
-      font-size: 1.1rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: background 0.3s;
-      display: inline-block;
-    }
-
-    .cta-btn:hover {
-      background: var(--brand-dark);
-    }
-
-    .container {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 20px;
-    }
-
-    .section {
-      padding: 60px 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      margin-bottom: 40px;
-      box-shadow: var(--shadow);
-    }
-
-    .section h2 {
-      text-align: center;
-      font-size: 2.5rem;
-      color: var(--brand);
-      margin-bottom: 30px;
-    }
-
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 30px;
-    }
-
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px;
-      box-shadow: var(--shadow);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-    }
-
-    .card h3 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-    }
-
-    .card p {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-
-    .sticky-cta {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: var(--brand);
-      color: #fff;
-      padding: 15px 30px;
-      border-radius: 50px;
-      font-weight: 700;
-      box-shadow: var(--shadow);
-      z-index: 999;
-      text-decoration: none;
-      transition: transform 0.3s ease;
-    }
-
-    .sticky-cta:hover {
-      transform: scale(1.05);
-      background: var(--brand-dark);
-    }
-
-    .email-form {
-      margin-top: 30px;
-      text-align: center;
-    }
-
-    .email-form input {
-      padding: 15px;
-      width: 80%;
-      max-width: 500px;
-      margin: 10px 0;
-      border: 2px solid var(--border);
-      border-radius: var(--radius);
-      font-size: 1rem;
-      color: var(--text);
-    }
-
-    .email-form button {
-      padding: 15px 30px;
-      background: var(--brand);
-      border: none;
-      border-radius: var(--radius);
-      color: #fff;
-      cursor: pointer;
-      font-weight: 600;
-      font-size: 1.1rem;
-      transition: background 0.3s;
-    }
-
-    .email-form button:hover {
-      background: var(--brand-dark);
-    }
-
-    footer {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-
-    footer a {
-      text-decoration: none;
-      color: var(--brand);
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+.section{max-width:1200px;margin:0 auto;padding:52px 24px}
+.section-title{font-size:22px;font-weight:800;color:var(--pink);margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--border)}
+.service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+</style>
 </head>
-
 <body>
-  <header>
-    <div class="container">
-      <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" class="logo">Forhers Guide</a>
-      <nav>
-        <ul>
-          <li><a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885">Services</a></li>
-          <li><a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885">Ozempic, WeGowy, Jardiance</a></li>
-          <li><a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885">Visit Forhers</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero" id="hero">
-    <h1>Forhers, Ozempic, WeGowy & Jardiance 2026</h1>
-    <p>Access online care for weight‑loss medication (Ozempic, WeGowy), Jardiance for diabetes, mental‑health support, hair regrowth, skin care, and more through licensed providers in the United States.</p>
-    <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" class="cta-btn">Visit Forhers</a>
-  </section>
-
-  <section class="section container" id="services">
-    <h2>What Forhers Offers (US)</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Weight‑loss medication (Ozempic & WeGowy)</h3>
-        <p>Online assessment and clinician review. Prescription options shipped to your US home with follow‑up support. <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank">Learn more</a></p>
-      </div>
-      <div class="card">
-        <h3>Jardiance for diabetes</h3>
-        <p>Forhers reviews Jardiance as an SGLT2 inhibitor for type 2 diabetes and heart‑health support, comparing it with GLP‑1 options like Ozempic and WeGowy. <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank">Learn more</a></p>
-      </div>
-      <div class="card">
-        <h3>Mental‑health & hair/skin care</h3>
-        <p>Telepsychiatry, anxiety and depression treatment, plus hair regrowth and skin‑care programs for women in the US. <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank">Learn more</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section container" id="how-it-works">
-    <h2>How Forhers Works (Affiliate‑Friendly)</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>1. Complete the online form</h3>
-        <p>Answer questions about your health, goals, and medical history on Forhers.</p>
-      </div>
-      <div class="card">
-        <h3>2. Connect with a clinician</h3>
-        <p>A licensed US provider reviews your answers and decides which medications or programs are right for you, including Ozempic, WeGowy, Jardiance, and mental‑health options.</p>
-      </div>
-      <div class="card">
-        <h3>3. Get medications or products</h3>
-        <p>Receive prescribed or selected products shipped to your US home through the Forhers platform.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Forhers Guide. All rights reserved. <a href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank">Visit Forhers</a></p>
-  </footer>
+<header class="site-header">
+  <div class="nav-inner">
+    <div class="logo">Hers</div>
+    <a class="header-cta" href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank" rel="nofollow sponsored">Get Started →</a>
+  </div>
+</header>
+<section class="hero">
+  <div class="hero-badge">👩‍⚕️ America's #1 Women's Telehealth · 2026</div>
+  <h1>Healthcare Built for Women</h1>
+  <p>Ozempic, WeGovy, Jardiance, mental health, hair loss, skin care, birth control, and more — all from licensed US providers delivered to your door.</p>
+  <div class="cta-group">
+    <a class="btn-white" href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank" rel="nofollow sponsored">Start Free Assessment →</a>
+  </div>
+</section>
+<div class="trust-bar">
+  <div class="trust-item"><span>👩‍⚕️</span> Licensed US Providers</div>
+  <div class="trust-item"><span>💊</span> Prescription Delivery</div>
+  <div class="trust-item"><span>🔒</span> HIPAA Compliant</div>
+  <div class="trust-item"><span>⭐</span> 500,000+ Women Served</div>
+  <div class="trust-item"><span>🚀</span> Same-Day Consultations</div>
+</div>
+<div class="section">
+  <div class="section-title">💊 Our Services</div>
+  <div class="service-grid"><a href="hers-ozempic-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">💉</div><h3>Ozempic</h3><p>Ozempic (semaglutide) is a GLP-1 receptor agonist originally developed for type ...</p></a><a href="hers-wegovy-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">⚡</div><h3>WeGovy</h3><p>WeGovy is the FDA-approved 2.4mg semaglutide injection specifically approved for...</p></a><a href="hers-jardiance-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">💊</div><h3>Jardiance</h3><p>Jardiance (empagliflozin) is an SGLT2 inhibitor used for type 2 diabetes managem...</p></a><a href="hers-tirzepatide-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🌟</div><h3>Tirzepatide (Mounjaro/Zepbound)</h3><p>Tirzepatide (sold as Mounjaro for diabetes and Zepbound for weight loss) is a du...</p></a><a href="hers-mental-health-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🧠</div><h3>Mental Health</h3><p>Hers offers comprehensive mental health services including therapy, psychiatry, ...</p></a><a href="hers-anxiety-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">😰</div><h3>Anxiety Treatment</h3><p>Hers provides online anxiety diagnosis and treatment including medication manage...</p></a><a href="hers-depression-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">💙</div><h3>Depression Treatment</h3><p>Hers offers comprehensive depression treatment including evaluation, medication ...</p></a><a href="hers-hair-loss-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">💆</div><h3>Hair Loss Treatment</h3><p>Hers offers clinically proven hair loss treatments for women including topical a...</p></a><a href="hers-skin-care-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">✨</div><h3>Prescription Skin Care</h3><p>Hers offers prescription-strength skin care including tretinoin, custom compound...</p></a><a href="hers-birth-control-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🌸</div><h3>Birth Control</h3><p>Hers makes it easy to get birth control prescribed online and delivered to your ...</p></a><a href="hers-menopause-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🌺</div><h3>Menopause Care</h3><p>Hers offers comprehensive menopause and perimenopause care including hormone rep...</p></a><a href="hers-pcos-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🔬</div><h3>PCOS Treatment</h3><p>Hers provides online PCOS evaluation and treatment including medication manageme...</p></a><a href="hers-acne-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">🌿</div><h3>Acne Treatment</h3><p>Hers offers prescription acne treatment including tretinoin, topical antibiotics...</p></a><a href="hers-eyelash-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">👁️</div><h3>Eyelash Growth</h3><p>Hers offers prescription eyelash growth treatment including bimatoprost (the act...</p></a><a href="hers-sexual-health-overview.html" class="feat" style="cursor:pointer"><div class="feat-icon">❤️</div><h3>Sexual Health</h3><p>Hers offers women's sexual health services including evaluation for low libido, ...</p></a></div>
+</div>
+<div class="section" style="padding-top:0">
+  <div class="section-title">📍 Find Hers by State</div>
+  <div class="rel-grid"><a href="hers-alabama-ozempic-online.html" class="rel-card">📍 Alabama (AL)</a><a href="hers-alaska-ozempic-online.html" class="rel-card">📍 Alaska (AK)</a><a href="hers-arizona-ozempic-online.html" class="rel-card">📍 Arizona (AZ)</a><a href="hers-arkansas-ozempic-online.html" class="rel-card">📍 Arkansas (AR)</a><a href="hers-california-ozempic-online.html" class="rel-card">📍 California (CA)</a><a href="hers-colorado-ozempic-online.html" class="rel-card">📍 Colorado (CO)</a><a href="hers-connecticut-ozempic-online.html" class="rel-card">📍 Connecticut (CT)</a><a href="hers-delaware-ozempic-online.html" class="rel-card">📍 Delaware (DE)</a><a href="hers-florida-ozempic-online.html" class="rel-card">📍 Florida (FL)</a><a href="hers-georgia-ozempic-online.html" class="rel-card">📍 Georgia (GA)</a><a href="hers-hawaii-ozempic-online.html" class="rel-card">📍 Hawaii (HI)</a><a href="hers-idaho-ozempic-online.html" class="rel-card">📍 Idaho (ID)</a><a href="hers-illinois-ozempic-online.html" class="rel-card">📍 Illinois (IL)</a><a href="hers-indiana-ozempic-online.html" class="rel-card">📍 Indiana (IN)</a><a href="hers-iowa-ozempic-online.html" class="rel-card">📍 Iowa (IA)</a><a href="hers-kansas-ozempic-online.html" class="rel-card">📍 Kansas (KS)</a><a href="hers-kentucky-ozempic-online.html" class="rel-card">📍 Kentucky (KY)</a><a href="hers-louisiana-ozempic-online.html" class="rel-card">📍 Louisiana (LA)</a><a href="hers-maine-ozempic-online.html" class="rel-card">📍 Maine (ME)</a><a href="hers-maryland-ozempic-online.html" class="rel-card">📍 Maryland (MD)</a><a href="hers-massachusetts-ozempic-online.html" class="rel-card">📍 Massachusetts (MA)</a><a href="hers-michigan-ozempic-online.html" class="rel-card">📍 Michigan (MI)</a><a href="hers-minnesota-ozempic-online.html" class="rel-card">📍 Minnesota (MN)</a><a href="hers-mississippi-ozempic-online.html" class="rel-card">📍 Mississippi (MS)</a><a href="hers-missouri-ozempic-online.html" class="rel-card">📍 Missouri (MO)</a><a href="hers-montana-ozempic-online.html" class="rel-card">📍 Montana (MT)</a><a href="hers-nebraska-ozempic-online.html" class="rel-card">📍 Nebraska (NE)</a><a href="hers-nevada-ozempic-online.html" class="rel-card">📍 Nevada (NV)</a><a href="hers-new-hampshire-ozempic-online.html" class="rel-card">📍 New Hampshire (NH)</a><a href="hers-new-jersey-ozempic-online.html" class="rel-card">📍 New Jersey (NJ)</a><a href="hers-new-mexico-ozempic-online.html" class="rel-card">📍 New Mexico (NM)</a><a href="hers-new-york-ozempic-online.html" class="rel-card">📍 New York (NY)</a><a href="hers-north-carolina-ozempic-online.html" class="rel-card">📍 North Carolina (NC)</a><a href="hers-north-dakota-ozempic-online.html" class="rel-card">📍 North Dakota (ND)</a><a href="hers-ohio-ozempic-online.html" class="rel-card">📍 Ohio (OH)</a><a href="hers-oklahoma-ozempic-online.html" class="rel-card">📍 Oklahoma (OK)</a><a href="hers-oregon-ozempic-online.html" class="rel-card">📍 Oregon (OR)</a><a href="hers-pennsylvania-ozempic-online.html" class="rel-card">📍 Pennsylvania (PA)</a><a href="hers-rhode-island-ozempic-online.html" class="rel-card">📍 Rhode Island (RI)</a><a href="hers-south-carolina-ozempic-online.html" class="rel-card">📍 South Carolina (SC)</a><a href="hers-south-dakota-ozempic-online.html" class="rel-card">📍 South Dakota (SD)</a><a href="hers-tennessee-ozempic-online.html" class="rel-card">📍 Tennessee (TN)</a><a href="hers-texas-ozempic-online.html" class="rel-card">📍 Texas (TX)</a><a href="hers-utah-ozempic-online.html" class="rel-card">📍 Utah (UT)</a><a href="hers-vermont-ozempic-online.html" class="rel-card">📍 Vermont (VT)</a><a href="hers-virginia-ozempic-online.html" class="rel-card">📍 Virginia (VA)</a><a href="hers-washington-ozempic-online.html" class="rel-card">📍 Washington (WA)</a><a href="hers-west-virginia-ozempic-online.html" class="rel-card">📍 West Virginia (WV)</a><a href="hers-wisconsin-ozempic-online.html" class="rel-card">📍 Wisconsin (WI)</a><a href="hers-wyoming-ozempic-online.html" class="rel-card">📍 Wyoming (WY)</a></div>
+</div>
+<div class="section" style="padding-top:0">
+  <div class="section-title">⚖️ Hers vs Competitors</div>
+  <div class="rel-grid"><a href="hers-vs-ro-vs.html" class="rel-card">Hers vs Ro</a><a href="hers-vs-keeps-vs.html" class="rel-card">Hers vs Keeps</a><a href="hers-vs-noom-vs.html" class="rel-card">Hers vs Noom</a><a href="hers-vs-found-vs.html" class="rel-card">Hers vs Found</a><a href="hers-vs-calibrate-vs.html" class="rel-card">Hers vs Calibrate</a><a href="hers-vs-sequence-vs.html" class="rel-card">Hers vs Sequence by WW</a><a href="hers-vs-brightside-vs.html" class="rel-card">Hers vs Brightside</a><a href="hers-vs-talkspace-vs.html" class="rel-card">Hers vs Talkspace</a><a href="hers-vs-betterhelp-vs.html" class="rel-card">Hers vs BetterHelp</a><a href="hers-vs-cerebral-vs.html" class="rel-card">Hers vs Cerebral</a><a href="hers-vs-done-vs.html" class="rel-card">Hers vs Done</a><a href="hers-vs-ahead-vs.html" class="rel-card">Hers vs Ahead</a><a href="hers-vs-teladoc-vs.html" class="rel-card">Hers vs Teladoc</a><a href="hers-vs-mdlive-vs.html" class="rel-card">Hers vs MDLive</a><a href="hers-vs-amazon-clinic-vs.html" class="rel-card">Hers vs Amazon Clinic</a><a href="hers-vs-plushcare-vs.html" class="rel-card">Hers vs PlushCare</a><a href="hers-vs-sesame-vs.html" class="rel-card">Hers vs Sesame</a><a href="hers-vs-wisp-vs.html" class="rel-card">Hers vs Wisp</a><a href="hers-vs-nurx-vs.html" class="rel-card">Hers vs Nurx</a><a href="hers-vs-twentyeight-health-vs.html" class="rel-card">Hers vs 28health</a></div>
+</div>
+<div class="section" style="padding-top:0">
+  <div class="section-title">🔍 Research Topics</div>
+  <div class="rel-grid"><a href="ozempic-for-women.html" class="rel-card">Ozempic for Women 2026</a><a href="wegovy-for-women.html" class="rel-card">WeGovy for Women</a><a href="ozempic-side-effects-women.html" class="rel-card">Ozempic Side Effects in Women</a><a href="wegovy-side-effects-women.html" class="rel-card">WeGovy Side Effects Women</a><a href="ozempic-cost-women.html" class="rel-card">Ozempic Cost for Women</a><a href="semaglutide-women.html" class="rel-card">Semaglutide for Women</a><a href="glp1-women.html" class="rel-card">GLP-1 for Women</a><a href="ozempic-alternatives-women.html" class="rel-card">Ozempic Alternatives for Women</a><a href="compounded-semaglutide-women.html" class="rel-card">Compounded Semaglutide Women</a><a href="tirzepatide-women.html" class="rel-card">Tirzepatide for Women</a><a href="mounjaro-women.html" class="rel-card">Mounjaro for Women</a><a href="zepbound-women.html" class="rel-card">Zepbound for Women</a><a href="ozempic-dosage-women.html" class="rel-card">Ozempic Dosage for Women</a><a href="wegovy-dosage-women.html" class="rel-card">WeGovy Dosage Women</a><a href="ozempic-results-women.html" class="rel-card">Ozempic Results Women</a><a href="wegovy-results-women.html" class="rel-card">WeGovy Results Women</a><a href="ozempic-reviews-women.html" class="rel-card">Ozempic Reviews Women</a><a href="semaglutide-reviews-women.html" class="rel-card">Semaglutide Reviews Women</a><a href="ozempic-nausea-women.html" class="rel-card">Ozempic Nausea Women</a><a href="glp1-side-effects.html" class="rel-card">GLP-1 Side Effects</a><a href="jardiance-women.html" class="rel-card">Jardiance for Women</a><a href="jardiance-vs-ozempic.html" class="rel-card">Jardiance vs Ozempic</a><a href="jardiance-side-effects-women.html" class="rel-card">Jardiance Side Effects Women</a><a href="jardiance-cost.html" class="rel-card">Jardiance Cost</a></div>
+</div>
+<section class="cta-band">
+  <h2>Start Your Health Journey with Hers</h2>
+  <p>500,000+ women trust Hers. Licensed providers, fast delivery, affordable care.</p>
+  <a class="btn-white" href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank" rel="nofollow sponsored">Get Started Free →</a>
+</section>
+<a class="sticky-cta" href="https://convert.ctypy.com/aff_c?offer_id=29339&aff_id=21885" target="_blank" rel="nofollow sponsored">💊 Get Started</a>
+<footer>© 2026 Hers Affiliate Guide · Affiliate links used · Not medical advice · <a href="index.html">Home</a></footer>
 </body>
 </html>
